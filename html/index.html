@@ -24,37 +24,43 @@
 
   <header>
     <div class="container">
-      <div class="row justify-content-between align-items-center"> <!-- 'align-items-center' əlavə etdim -->
-        <div class="col-4 col-md-6 col-sm-6">
+      <div class="row align-items-center justify-content-between">
+
+        <div class="col-4 col-md-3">
           <div class="image">
             <img src="../assets/image/logo (10).png" alt="Logo">
           </div>
         </div>
-        <div class="col-4 col-md-6 col-sm-6">
-          <div class="nav">
-          <ul class="d-flex gap-4 justify-content-center">
-            <li><a href="">Home</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Latest</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Pages</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
+
+        <div class="col-4 col-md-6">
+          <nav>
+            <ul class="nav d-flex justify-content-center gap-3">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Latest</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Pages</a></li>
+            </ul>
+          </nav>
         </div>
-        </div>
-        <div class="col-4 col-md-6 col-sm-6 d-flex justify-content-center">
-          <div class="icons d-flex justify-content-center align-items-center gap-3">
+
+        <!-- Icons Section -->
+        <div class="col-4 col-md-3 d-flex justify-content-end">
+          <div class="icons d-flex">
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-regular fa-user"></i>
-            <i class="fa-solid fa-basket-shopping"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-solid fa-bars menu"></i>
           </div>
         </div>
       </div>
     </div>
   </header>
-  
+
+
+
+
 
   <!-- Hero Section -->
 
@@ -64,7 +70,8 @@
         <div class="row justify-content-center">
           <div class="content col-8 col-md-8 col-sm-12 d-flex flex-column justify-content-center gap-3">
             <h1>Select Your New Perfect Style</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sint similique eos ratione aut eligendi et quo laboriosam doloremque quia!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sint similique eos ratione aut eligendi et
+              quo laboriosam doloremque quia!</p>
             <button class="shop-now btn">
               <span class="zindex">SHOP NOW</span>
               <div class="overlay"></div>
@@ -77,7 +84,7 @@
       </div>
     </div>
   </section>
-  
+
 
   <!-- New Arrivals Section -->
 
@@ -249,14 +256,14 @@
       </div>
     </div>
   </section>
-  
+
 
   <!-- Watch of Choice Section -->
   <section id="watch-of-choice">
     <div class="container">
       <div class="watch-of-choice">
-        <div class="row">
-          <div class="col-6 col-md-12 col-sm-8 d-flex flex-column justify-content-center gap-4">
+        <div class="row ">
+          <div class="col-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center gap-4 texts">
             <h2>Watch of Choice</h2>
             <p>Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
@@ -265,28 +272,28 @@
               <div class="overlay"></div>
             </button>
           </div>
-          <div class="col-6 col-md-12 col-sm-8">
-            <img src="../assets/image/choce_watch1.png" alt="Choice Watch">
+          <div class="col-6 col-md-8 col-sm-12 watch d-flex justify-content-center align-items-center">
+            <img src="../assets/image/choce_watch1.png" class="w-100" alt="Choice Watch">
           </div>
         </div>
         <div class="row">
-          <div class="col-6 col-md-12 col-sm-8">
-            <img src="../assets/image/choce_watch2.png" alt="Choice Watch">
+          <div class="col-6 col-md-8 col-sm-12 watch">
+            <img src="../assets/image/choce_watch2.png" class="w-100" alt="Choice Watch">
           </div>
-          <div class="col-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center gap-4">
+          <div class="col-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center gap-4 texts">
             <h2>Watch of Choice</h2>
             <p>Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-              <button class="btn shop-now">
-                <span>SHOP NOW</span>
-                <div class="overlay"></div>
-              </button>
+            <button class="btn shop-now">
+              <span>SHOP NOW</span>
+              <div class="overlay"></div>
+            </button>
           </div>
         </div>
       </div>
     </div>
   </section>
-  
+
 
 
 
@@ -294,18 +301,18 @@
   <section id="features">
     <div class="container">
       <div class="features">
-        <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-4">
+        <div class="row d-flex">
+          <div class="col-4 col-md-6 col-sm-12 ">
             <i class="fa-solid fa-box"></i>
             <h4>Free Shipping</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
-          <div class="col-4">
+          <div class="col-4 col-md-6 col-sm-12">
             <i class="fa-solid fa-unlock-keyhole"></i>
             <h4>Secure Payment</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
-          <div class="col-4">
+          <div class="col-4 col-md-6 col-sm-12">
             <i class="fa-solid fa-headset"></i>
             <h4>24/7 Support</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
